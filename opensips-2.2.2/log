@@ -1,0 +1,51 @@
+Sep  1 11:27:03 [505] INFO:core:fix_poll_method: using epoll_lt as the IO watch method (auto detected)
+Listening on 
+             udp: 10.0.0.137 [10.0.0.137]:5060
+Aliases: 
+             udp: razvanc:5060
+
+Sep  1 11:27:03 [507] NOTICE:core:main: version: opensips 2.2.1 (x86_64/linux)
+Sep  1 11:27:03 [507] INFO:core:main: using 32 Mb shared memory
+Sep  1 11:27:03 [507] INFO:core:main: using 2 Mb private memory per process
+Sep  1 11:27:03 [507] INFO:core:evi_publish_event: Registered event <E_CORE_THRESHOLD(0)>
+Sep  1 11:27:03 [507] INFO:core:evi_publish_event: Registered event <E_CORE_SHM_THRESHOLD(1)>
+Sep  1 11:27:03 [507] INFO:core:evi_publish_event: Registered event <E_CORE_PKG_THRESHOLD(2)>
+Sep  1 11:27:03 [507] INFO:tm:mod_init: TM - initializing...
+Sep  1 11:27:03 [507] INFO:rr:mod_init: rr - initializing
+Sep  1 11:27:03 [507] INFO:sipmsgops:mod_init: initializing...
+Sep  1 11:27:03 [507] INFO:cfgutils:mod_init: no hash_file given, disable hash functionality
+Sep  1 11:27:03 [507] INFO:cfgutils:mod_init: module initialized, pid [507]
+Sep  1 11:27:03 [507] INFO:acc:mod_init: initializing...
+Sep  1 11:27:03 [507] INFO:core:evi_publish_event: Registered event <E_ACC_EVENT(3)>
+Sep  1 11:27:03 [507] INFO:core:evi_publish_event: Registered event <E_ACC_CDR(4)>
+Sep  1 11:27:03 [507] INFO:core:evi_publish_event: Registered event <E_ACC_MISSED_EVENT(5)>
+Sep  1 11:27:03 [507] INFO:sl:mod_init: Initializing StateLess engine
+Sep  1 11:27:03 [507] INFO:dialog:mod_init: Dialog module - initializing
+Sep  1 11:27:03 [507] INFO:core:evi_publish_event: Registered event <E_DLG_STATE_CHANGED(6)>
+Sep  1 11:27:03 [507] NOTICE:event_route:mod_init: initializing module ...
+Sep  1 11:27:03 [507] INFO:core:mod_init: initializing UDP-plain protocol
+Sep  1 11:27:03 [507] INFO:core:probe_max_sock_buff: using rcv buffer of 416 kb
+Sep  1 11:27:03 [505] INFO:core:daemonize: pre-daemon process exiting with 0
+Sep  1 21:30:53 [512] WARNING:core:handle_timer_job: utimer job <tm-utimer> has a 80000 us delay in execution
+Sep  1 22:49:23 [514] WARNING:core:handle_timer_job: timer job <dlg-timer> has a 90000 us delay in execution
+Sep  2 15:57:13 [511] WARNING:core:utimer_ticker: utimer task <tm-utimer> already scheduled for 102610000 ms (now 102610200 ms), it may overlap..
+Sep  2 15:57:13 [512] WARNING:core:handle_timer_job: utimer job <tm-utimer> has a 90000 us delay in execution
+Sep  3 17:00:58 [514] WARNING:core:handle_timer_job: timer job <blcore-expire> has a 100000 us delay in execution
+Sep  3 22:11:43 [512] WARNING:core:handle_timer_job: timer job <dlg-timer> has a 80000 us delay in execution
+Sep  3 23:18:28 [512] WARNING:core:handle_timer_job: utimer job <tm-utimer> has a 80000 us delay in execution
+Sep  4 00:47:28 [514] WARNING:core:handle_timer_job: utimer job <tm-utimer> has a 80000 us delay in execution
+Sep  4 05:20:18 [512] WARNING:core:handle_timer_job: timer job <dlg-timer> has a 90000 us delay in execution
+Sep  4 20:09:23 [512] WARNING:core:handle_timer_job: utimer job <tm-utimer> has a 80000 us delay in execution
+Sep  5 02:40:13 [512] WARNING:core:handle_timer_job: utimer job <tm-utimer> has a 80000 us delay in execution
+Sep  5 20:33:28 [514] WARNING:core:handle_timer_job: utimer job <tm-utimer> has a 110000 us delay in execution
+Sep  5 20:33:28 [511] WARNING:core:utimer_ticker: utimer task <tm-utimer> already scheduled for 378385000 ms (now 378385110 ms), it may overlap..
+Sep  5 20:33:28 [511] WARNING:core:utimer_ticker: utimer task <tm-utimer> already scheduled for 378385210 ms (now 378385210 ms), it may overlap..
+Sep  6 01:50:58 [514] WARNING:core:handle_timer_job: utimer job <tm-utimer> has a 80000 us delay in execution
+Sep  6 04:50:58 [512] WARNING:core:handle_timer_job: utimer job <tm-utimer> has a 80000 us delay in execution
+Sep  6 11:38:33 [514] WARNING:core:handle_timer_job: utimer job <tm-utimer> has a 60000 us delay in execution
+Sep  6 12:11:08 [514] WARNING:core:handle_timer_job: timer job <dlg-timer> has a 80000 us delay in execution
+Sep  6 13:33:28 [512] WARNING:core:handle_timer_job: timer job <dlg-timer> has a 90000 us delay in execution
+Sep  6 21:31:33 [512] WARNING:core:handle_timer_job: utimer job <tm-utimer> has a 80000 us delay in execution
+Sep  7 01:42:28 [512] WARNING:core:handle_timer_job: utimer job <tm-utimer> has a 90000 us delay in execution
+Sep  7 20:01:38 [512] WARNING:core:handle_timer_job: timer job <dlg-timer> has a 90000 us delay in execution
+Sep  8 03:46:53 [512] WARNING:core:handle_timer_job: utimer job <tm-utimer> has a 90000 us delay in execution
